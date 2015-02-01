@@ -5,6 +5,7 @@
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
 ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c	language:Ruby
+AddConfirmableAndLockableToUser	db/migrate/20150201205015_add_confirmable_and_lockable_to_user.rb	/^class AddConfirmableAndLockableToUser < ActiveRecord::Migration$/;"	c	language:Ruby
 AddDeviseToUsers	db/migrate/20150131223927_add_devise_to_users.rb	/^class AddDeviseToUsers < ActiveRecord::Migration$/;"	c	language:Ruby
 Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	language:Ruby	class:Ownmarketrails
 ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c	language:Ruby
@@ -15,6 +16,7 @@ Ownmarketrails	config/application.rb	/^module Ownmarketrails$/;"	m	language:Ruby
 User	app/models/user.rb	/^class User < ActiveRecord::Base$/;"	c	language:Ruby
 UserTest	test/models/user_test.rb	/^class UserTest < ActiveSupport::TestCase$/;"	c	language:Ruby
 change	db/migrate/20150131222641_create_users.rb	/^  def change$/;"	f	language:Ruby	class:CreateUsers
+change	db/migrate/20150201205015_add_confirmable_and_lockable_to_user.rb	/^  def change$/;"	f	language:Ruby	class:AddConfirmableAndLockableToUser
 down	db/migrate/20150131223927_add_devise_to_users.rb	/^  def self.down$/;"	F	language:Ruby	class:AddDeviseToUsers
 index	app/controllers/dashboard_controller.rb	/^  def index$/;"	f	language:Ruby	class:DashboardController
 up	db/migrate/20150131223927_add_devise_to_users.rb	/^  def self.up$/;"	F	language:Ruby	class:AddDeviseToUsers
