@@ -12,10 +12,9 @@ test:
   pool: 5
   username: jk
 
-# TODO set up a production db!
-# production:
-#   adapter: postgresql
-#   encoding: unicode
-#   database: ownmarket_production
-#   pool: 5
-#   username: myapp
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: ownmarket_production
+  pool: 5
+  username: myapp
